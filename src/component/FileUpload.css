@@ -1,0 +1,56 @@
+/* FileUpload.css */
+.file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-section {
+    margin-bottom: 20px;
+  }
+  
+  .dropzone-section {
+    border: 2px dashed #aaa;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .upload-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .selected-files-section,
+  .fetched-images-section {
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+  
+  .file-preview {
+    margin: 10px;
+  }
+  
+  .file-image {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .download-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
